@@ -26,7 +26,8 @@ var appRouter = function (app) {
 					firstName: faker.name.firstName(),
 					lastName: faker.name.lastName(),
 					username: faker.internet.userName(),
-					email: faker.internet.email()
+					email: faker.internet.email(),
+					image: faker.image.imageUrl()
 				});
 			}
 
